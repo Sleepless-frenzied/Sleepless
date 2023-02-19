@@ -3,8 +3,20 @@ import { Transition } from "@headlessui/react";
 
 import {Link} from "react-router-dom";
 
+import Dropdown from "./dropdown";
+
 
 function Nav() {
+
+
+    const links = [
+        {to:'/Coven', href: '/account-settings', label: 'Account settings' },
+        {to:'/Coven', href: '/support', label: 'Support' },
+        {to:'/Coven', href: '/license', label: 'License' },
+        {to:'/Coven', href: '/sign-out', label: 'Sign out' },
+    ]
+
+
     const [isOpen, setIsOpen] = useState(false);
 
 
@@ -27,11 +39,16 @@ function Nav() {
                             <div className="hidden md:block">
                                 <div className="ml-10 flex items-baseline space-x-4">
 
+                                    <Dropdown
+                                        name = {'test'}
+                                        links = {links}/>
+
                                     <Link to={'/Coven'}
                                           className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
                                     >
                                         t
                                     </Link>
+
                                     <a
                                         href="#"
                                         className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -128,6 +145,10 @@ function Nav() {
                     {(ref) => (
                         <div className="md:hidden" id="mobile-menu">
                             <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+
+                                <Dropdown
+                                    name = {'test'}
+                                    links = {links}/>
 
                                 <a
                                     href="#"

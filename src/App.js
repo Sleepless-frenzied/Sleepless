@@ -14,7 +14,7 @@ function App() {
             <Navbar />
 
             <Routes>
-                <Route path="" element={<Sleepless />} />
+                <Route path="/" element={<Sleepless/>} />
                 <Route path="/Monumap" element={<Monumap/>} />
                 <Route path="/Coven" element={<Coven />} />
             </Routes>
