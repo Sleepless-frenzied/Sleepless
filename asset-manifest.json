@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Sleepless/static/css/main.073c9b0a.css",
-    "main.js": "/Sleepless/static/js/main.1bceb85f.js",
+    "main.css": "/Sleepless/static/css/main.223a44e5.css",
+    "main.js": "/Sleepless/static/js/main.312db249.js",
     "static/js/787.1bf8af6b.chunk.js": "/Sleepless/static/js/787.1bf8af6b.chunk.js",
-    "static/media/logo.svg": "/Sleepless/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/rmbgMainLogo.ico": "/Sleepless/static/media/rmbgMainLogo.7b3ab798b5517797e477.ico",
     "index.html": "/Sleepless/index.html",
-    "main.073c9b0a.css.map": "/Sleepless/static/css/main.073c9b0a.css.map",
-    "main.1bceb85f.js.map": "/Sleepless/static/js/main.1bceb85f.js.map",
+    "main.223a44e5.css.map": "/Sleepless/static/css/main.223a44e5.css.map",
+    "main.312db249.js.map": "/Sleepless/static/js/main.312db249.js.map",
     "787.1bf8af6b.chunk.js.map": "/Sleepless/static/js/787.1bf8af6b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1bceb85f.js"
+    "static/css/main.223a44e5.css",
+    "static/js/main.312db249.js"
   ]
 }
