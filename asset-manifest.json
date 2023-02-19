@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Sleepless/static/css/main.6d4c9d7b.css",
-    "main.js": "/Sleepless/static/js/main.994974e9.js",
-    "static/js/787.1bf8af6b.chunk.js": "/Sleepless/static/js/787.1bf8af6b.chunk.js",
-    "static/media/rmbgMainLogo.ico": "/Sleepless/static/media/rmbgMainLogo.7b3ab798b5517797e477.ico",
-    "static/media/MainLogo.jpg": "/Sleepless/static/media/MainLogo.be62ab6a43bb19327086.jpg",
-    "index.html": "/Sleepless/index.html",
-    "main.6d4c9d7b.css.map": "/Sleepless/static/css/main.6d4c9d7b.css.map",
-    "main.994974e9.js.map": "/Sleepless/static/js/main.994974e9.js.map",
-    "787.1bf8af6b.chunk.js.map": "/Sleepless/static/js/787.1bf8af6b.chunk.js.map"
+    "main.css": "/static/css/main.299a1b8b.css",
+    "main.js": "/static/js/main.dec22efa.js",
+    "static/js/787.1bf8af6b.chunk.js": "/static/js/787.1bf8af6b.chunk.js",
+    "static/media/rmbgMainLogo.ico": "/static/media/rmbgMainLogo.7b3ab798b5517797e477.ico",
+    "static/media/MainLogo.jpg": "/static/media/MainLogo.be62ab6a43bb19327086.jpg",
+    "index.html": "/index.html",
+    "main.299a1b8b.css.map": "/static/css/main.299a1b8b.css.map",
+    "main.dec22efa.js.map": "/static/js/main.dec22efa.js.map",
+    "787.1bf8af6b.chunk.js.map": "/static/js/787.1bf8af6b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d4c9d7b.css",
-    "static/js/main.994974e9.js"
+    "static/css/main.299a1b8b.css",
+    "static/js/main.dec22efa.js"
   ]
 }
