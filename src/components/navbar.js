@@ -28,7 +28,7 @@ function Nav() {
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
-                                <Link to={'/'}>
+                                <Link to={'/Sleepless'}>
                                     <img
                                         className="h-12 w-13"
                                         src={require('../img/rmbgMainLogo.ico')}
