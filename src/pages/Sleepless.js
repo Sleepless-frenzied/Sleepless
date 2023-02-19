@@ -7,7 +7,7 @@ import React from "react";
 function Sleepless(){
     return (
         <>
-            <div class="bg-black text-amber-600 ">
+            <div class="text-amber-600 ">
                 <Typed
                     strings={['Welcome to:']}
                     typeSpeed={40}
