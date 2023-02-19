@@ -7,12 +7,14 @@ import Coven from "./pages/Games/Coven";
 
 import { Routes, Route} from "react-router-dom";
 
+
 function App() {
     return (
         <div className="App">
             <Navbar />
+
             <Routes>
-                <Route path="/" element={<Sleepless />} />
+                <Route path="" element={<Sleepless />} />
                 <Route path="/Monumap" element={<Monumap/>} />
                 <Route path="/Coven" element={<Coven />} />
             </Routes>
