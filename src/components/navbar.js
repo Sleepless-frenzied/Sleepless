@@ -15,6 +15,10 @@ function Nav() {
         {to:'/Loading', href: '/Loading', label: 'Loading' },
     ]
 
+    const Applications = [
+        {to:'/Monumap', href: '/Monumap', label: 'Monumap' },
+    ]
+
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -42,6 +46,10 @@ function Nav() {
                                             name = {'Games'}
                                             links = {Games}/>
                                     </div>
+
+                                    <Dropdown
+                                        name = {'Applications'}
+                                        links = {Applications}/>
 
 
                                     <Link to={'/AboutUs'}
@@ -118,6 +126,10 @@ function Nav() {
                                 <Dropdown
                                     name = {'Games'}
                                     links = {Games}/>
+
+                                <Dropdown
+                                    name = {'Applications'}
+                                    links = {Applications}/>
 
 
                                 <Link to={'/AboutUs'}

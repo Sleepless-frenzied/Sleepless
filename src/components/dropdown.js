@@ -9,13 +9,13 @@ function Dropdown({name,links}) {
         <Menu as="div" className="relative z-10 ">
             <Menu.Button className="text-xl hover:bg-gray-700 text-white px-3 py-2 text-sm font-medium rounded-md ">{name}</Menu.Button>
 
-            <Menu.Items className="relative md:absolute bg-gray-800 z-1 rounded-md ">
+            <Menu.Items className="relative md:absolute bg-gray-800  rounded-md ">
                 {links.map((link) => (
                     <Link to={link.to} key={link.href}>
                         <Menu.Item
                             as="a"
                             href={link.href}
-                            className=" flex flex-col text-gray-300 hover:bg-gray-700 hover:rounded-md hover:text-white px-7 py-2 text-sm font-medium "
+                            className=" flex flex-col text-gray-300 hover:bg-gray-700 hover:rounded-md hover:text-white w-auto mx-9 py-2 text-lg font-medium "
 
                         >
                             {link.label}

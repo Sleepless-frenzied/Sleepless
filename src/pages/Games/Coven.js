@@ -7,6 +7,7 @@ import Boss from "../../img/Coven/Boss.png"
 import Loading from "../../img/Coven/loading.png"
 import Map from "../../img/Coven/map.png"
 import Skill from "../../img/Coven/skills.jpg"
+import Shop from "../../img/Coven/Shop.png"
 function App() {
     const slides = [
         {
@@ -34,7 +35,11 @@ function App() {
             title:"A lot of skills",
             resume:"Do whatever you want.",
         },
-
+        {
+            url: Shop,
+            title:"Shop",
+            resume:"Come waste your money here :)",
+        },
 
 
     ];
@@ -64,7 +69,7 @@ function App() {
             >
                 <img  className="max-w-screen-md  h-[565px] w-full" src={slides[currentIndex].url} alt="tr">
                 </img>
-                <div className="carousel-caption hidden sm:block absolute text-center">
+                <div className="carousel-caption hidden sm:block absolute text-center bg-gray-700 bg-opacity-80 rounded">
 
                     <div className="grid grid-cols-1 divide-y">
                         <h5 className="text-xl">{slides[currentIndex].title}</h5>
