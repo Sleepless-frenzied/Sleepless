@@ -6,10 +6,11 @@ import {Link} from "react-router-dom";
 import Dropdown from "./dropdown";
 
 
+
 function Nav() {
 
 
-    const links = [
+    const Games = [
         {to:'/Coven', href: '/account-settings', label: 'Account settings' },
         {to:'/Coven', href: '/support', label: 'Support' },
         {to:'/Coven', href: '/license', label: 'License' },
@@ -25,64 +26,34 @@ function Nav() {
         <div>
             <nav className="bg-gray-800">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex items-center justify-between h-16">
+                    <div className="flex items-center justify-between h16">
                         <div className="flex items-center">
                             <div className="flex-shrink-0">
                                 <Link to={'/Sleepless'}>
                                     <img
                                         className="h-12 w-13"
-                                        src={require('../img/rmbgMainLogo.ico')}
+                                        src={require('../img/logo/rmbgMainLogo.ico')}
                                         alt="Workflow"
                                     />
                                 </Link>
                             </div>
                             <div className="hidden md:block">
                                 <div className="ml-10 flex items-baseline space-x-4">
+                                    <div className={""}>
+                                        <Dropdown
+                                            name = {'test'}
+                                            links = {Games}/>
+                                    </div>
 
-                                    <Dropdown
-                                        name = {'test'}
-                                        links = {links}/>
 
-                                    <Link to={'/Coven'}
+                                    <Link to={'/AboutUs'}
                                           className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
                                     >
-                                        t
+                                        About us
                                     </Link>
 
-                                    <a
-                                        href="#"
-                                        className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
-                                    >
-                                        Dashboard
-                                    </a>
 
-                                    <a
-                                        href="#"
-                                        className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                                    >
-                                        Team
-                                    </a>
 
-                                    <a
-                                        href="#"
-                                        className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                                    >
-                                        Projects
-                                    </a>
-
-                                    <a
-                                        href="#"
-                                        className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                                    >
-                                        Calendar
-                                    </a>
-
-                                    <a
-                                        href="#"
-                                        className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                                    >
-                                        Reports
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -148,7 +119,7 @@ function Nav() {
 
                                 <Dropdown
                                     name = {'test'}
-                                    links = {links}/>
+                                    links = {Games}/>
 
                                 <a
                                     href="#"
