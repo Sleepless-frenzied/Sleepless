@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sleepless/static/css/main.c61b3d90.css",
-    "main.js": "/Sleepless/static/js/main.c6864edd.js",
+    "main.css": "/Sleepless/static/css/main.3a7cb4ba.css",
+    "main.js": "/Sleepless/static/js/main.eb544435.js",
     "static/js/787.1bf8af6b.chunk.js": "/Sleepless/static/js/787.1bf8af6b.chunk.js",
     "static/media/Coven.png": "/Sleepless/static/media/Coven.d5520bf3d8f057b21db4.png",
     "static/media/skills.jpg": "/Sleepless/static/media/skills.e59b07421738ba864168.jpg",
@@ -10,13 +10,14 @@
     "static/media/rmbgMainLogo.ico": "/Sleepless/static/media/rmbgMainLogo.7b3ab798b5517797e477.ico",
     "static/media/loading.png": "/Sleepless/static/media/loading.c0ae6d6b339bfd0f2ad3.png",
     "static/media/MainLogo.jpg": "/Sleepless/static/media/MainLogo.be62ab6a43bb19327086.jpg",
+    "static/media/Shop.png": "/Sleepless/static/media/Shop.9a49c6ae85f36383d39b.png",
     "index.html": "/Sleepless/index.html",
-    "main.c61b3d90.css.map": "/Sleepless/static/css/main.c61b3d90.css.map",
-    "main.c6864edd.js.map": "/Sleepless/static/js/main.c6864edd.js.map",
+    "main.3a7cb4ba.css.map": "/Sleepless/static/css/main.3a7cb4ba.css.map",
+    "main.eb544435.js.map": "/Sleepless/static/js/main.eb544435.js.map",
     "787.1bf8af6b.chunk.js.map": "/Sleepless/static/js/787.1bf8af6b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c61b3d90.css",
-    "static/js/main.c6864edd.js"
+    "static/css/main.3a7cb4ba.css",
+    "static/js/main.eb544435.js"
   ]
 }
