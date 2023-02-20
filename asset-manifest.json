@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/Sleepless/static/css/main.0640c299.css",
-    "main.js": "/Sleepless/static/js/main.3ee75c21.js",
+    "main.css": "/Sleepless/static/css/main.c61b3d90.css",
+    "main.js": "/Sleepless/static/js/main.c6864edd.js",
     "static/js/787.1bf8af6b.chunk.js": "/Sleepless/static/js/787.1bf8af6b.chunk.js",
+    "static/media/Coven.png": "/Sleepless/static/media/Coven.d5520bf3d8f057b21db4.png",
+    "static/media/skills.jpg": "/Sleepless/static/media/skills.e59b07421738ba864168.jpg",
+    "static/media/map.png": "/Sleepless/static/media/map.bc75c85df227ec065453.png",
+    "static/media/Boss.png": "/Sleepless/static/media/Boss.53abe3b5d3ef09f6b5c8.png",
     "static/media/rmbgMainLogo.ico": "/Sleepless/static/media/rmbgMainLogo.7b3ab798b5517797e477.ico",
+    "static/media/loading.png": "/Sleepless/static/media/loading.c0ae6d6b339bfd0f2ad3.png",
     "static/media/MainLogo.jpg": "/Sleepless/static/media/MainLogo.be62ab6a43bb19327086.jpg",
     "index.html": "/Sleepless/index.html",
-    "main.0640c299.css.map": "/Sleepless/static/css/main.0640c299.css.map",
-    "main.3ee75c21.js.map": "/Sleepless/static/js/main.3ee75c21.js.map",
+    "main.c61b3d90.css.map": "/Sleepless/static/css/main.c61b3d90.css.map",
+    "main.c6864edd.js.map": "/Sleepless/static/js/main.c6864edd.js.map",
     "787.1bf8af6b.chunk.js.map": "/Sleepless/static/js/787.1bf8af6b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0640c299.css",
-    "static/js/main.3ee75c21.js"
+    "static/css/main.c61b3d90.css",
+    "static/js/main.c6864edd.js"
   ]
 }
