@@ -11,10 +11,8 @@ function Nav() {
 
 
     const Games = [
-        {to:'/Coven', href: '/account-settings', label: 'Account settings' },
-        {to:'/Coven', href: '/support', label: 'Support' },
-        {to:'/Coven', href: '/license', label: 'License' },
-        {to:'/Coven', href: '/sign-out', label: 'Sign out' },
+        {to:'/Coven', href: '/Coven', label: 'Coven' },
+        {to:'/Loading', href: '/Loading', label: 'Loading' },
     ]
 
 
@@ -41,7 +39,7 @@ function Nav() {
                                 <div className="ml-10 flex items-baseline space-x-4">
                                     <div className={""}>
                                         <Dropdown
-                                            name = {'test'}
+                                            name = {'Games'}
                                             links = {Games}/>
                                     </div>
 
