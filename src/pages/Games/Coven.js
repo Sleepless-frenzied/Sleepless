@@ -2,26 +2,41 @@ import React, { useState } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 
-
-
+import Coven from "../../img/Coven/Coven.png"
+import Boss from "../../img/Coven/Boss.png"
+import Loading from "../../img/Coven/loading.png"
+import Map from "../../img/Coven/map.png"
+import Skill from "../../img/Coven/skills.jpg"
 function App() {
     const slides = [
         {
-            url: '../../src/img/logo/MainLogo.jpg',
+            url: Coven,
+            title:"An amazing RGP!",
+            resume:"Made with love and care by Sleepless ^^",
         },
         {
-            url: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80',
+            url: Boss,
+            title:"Epic Boss fights!!!",
+            resume:"DRAGOOOOONS!!!",
         },
         {
-            url: 'https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80',
+            url: Loading,
+            title:"Fast loading time",
+            resume:"GOTTA GO FAST!!!",
+        },
+        {
+            url: Map,
+            title:"Huge map",
+            resume:"don't get lost ;)",
+        },
+        {
+            url: Skill,
+            title:"A lot of skills",
+            resume:"Do whatever you want.",
         },
 
-        {
-            url: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80',
-        },
-        {
-            url: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80',
-        },
+
+
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -43,12 +58,21 @@ function App() {
     };
 
     return (
-        <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group'>
+        <div className=' m-auto max-w-screen-md  w-full py-16 px-4 relative group'>
             <div
-                className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
+                className='relative object-cover overflow-hidden rounded-md bg-center bg-cover duration-500'
             >
-                <img src={slides[currentIndex].url} alt="tr"/>
-                console.log({slides[currentIndex].url})
+                <img  className="max-w-screen-md  h-[565px] w-full" src={slides[currentIndex].url} alt="tr">
+                </img>
+                <div className="carousel-caption hidden sm:block absolute text-center">
+
+                    <div className="grid grid-cols-1 divide-y">
+                        <h5 className="text-xl">{slides[currentIndex].title}</h5>
+                        <p>{slides[currentIndex].resume}</p>
+                    </div>
+
+                </div>
+
             </div>
             {/* Left Arrow */}
             <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
@@ -69,7 +93,9 @@ function App() {
                     </div>
                 ))}
             </div>
+
         </div>
+
     );
 }
 

@@ -22,7 +22,7 @@ function Nav() {
 
     return (
         <div>
-            <nav className="bg-gray-800">
+            <nav className=" bg-gray-800">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h16">
                         <div className="flex items-center">
@@ -45,7 +45,7 @@ function Nav() {
 
 
                                     <Link to={'/AboutUs'}
-                                          className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
+                                          className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium text-xl"
                                     >
                                         About us
                                     </Link>
@@ -116,43 +116,16 @@ function Nav() {
                             <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
 
                                 <Dropdown
-                                    name = {'test'}
+                                    name = {'Games'}
                                     links = {Games}/>
 
-                                <a
-                                    href="#"
-                                    className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
-                                >
-                                    Dashboard
-                                </a>
 
-                                <a
-                                    href="#"
-                                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                                <Link to={'/AboutUs'}
+                                      className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium text-xl"
                                 >
-                                    Team
-                                </a>
+                                    About us
+                                </Link>
 
-                                <a
-                                    href="#"
-                                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                                >
-                                    Projects
-                                </a>
-
-                                <a
-                                    href="#"
-                                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                                >
-                                    Calendar
-                                </a>
-
-                                <a
-                                    href="#"
-                                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                                >
-                                    Reports
-                                </a>
                             </div>
                         </div>
                     )}

@@ -7,7 +7,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 function Sleepless(){
     return (
-        <div class="bg-black text-white h-screen font-Gamer" >
+        <div class="bg-idk text-white font-Gamer" >
 
 
             <TypeAnimation

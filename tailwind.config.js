@@ -7,11 +7,14 @@ module.exports = {
   theme: {
 
     fontFamily: {
-      Gamer: ["Press Start 2P"]
+      Gamer: "Press Start 2P"
     },
 
 
     extend: {
+      colors:{
+        'idk':'#1c1c1c',
+      },
 
     },
   },

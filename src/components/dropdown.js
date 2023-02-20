@@ -6,8 +6,8 @@ import {Link} from "react-router-dom";
 function Dropdown({name,links}) {
     return (
 
-        <Menu as="div" className="relative ">
-            <Menu.Button className=" hover:bg-gray-700 text-white px-3 py-2 text-sm font-medium rounded-md ">{name}</Menu.Button>
+        <Menu as="div" className="relative z-10 ">
+            <Menu.Button className="text-xl hover:bg-gray-700 text-white px-3 py-2 text-sm font-medium rounded-md ">{name}</Menu.Button>
 
             <Menu.Items className="relative md:absolute bg-gray-800 z-1 rounded-md ">
                 {links.map((link) => (
