@@ -9,7 +9,7 @@ import Coven from "./pages/Games/Coven";
 import Loading from "./pages/Games/Loading";
 import AboutUs from "./pages/Miscellaneous/AboutUs";
 
-import { Routes, Route} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 
 
@@ -26,6 +26,8 @@ function App() {
                 <Route path="/AboutUs" element={<AboutUs />} />
 
             </Routes>
+
+
         </div>
     );
 }
