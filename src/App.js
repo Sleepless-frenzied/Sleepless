@@ -9,7 +9,7 @@ import Coven from "./pages/Games/Coven";
 import Loading from "./pages/Games/Loading";
 import AboutUs from "./pages/Miscellaneous/AboutUs";
 
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 
 
 
@@ -19,7 +19,7 @@ function App() {
             <Navbar/>
 
             <Routes>
-                <Route path="/Sleepless" element={<Sleepless/>} />
+                <Route path="/" element={<Sleepless/>} />
                 <Route path="/Monumap" element={<Monumap/>} />
                 <Route path="/Coven" element={<Coven />} />
                 <Route path="/Loading" element={<Loading />} />
