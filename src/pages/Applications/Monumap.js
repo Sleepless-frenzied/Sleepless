@@ -3,59 +3,55 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 
-import Coven from "../../img/Coven/Coven.png"
-import Boss from "../../img/Coven/Boss.png"
-import Loading from "../../img/Coven/loading.png"
-import Map from "../../img/Coven/map.png"
-import Skill from "../../img/Coven/skills.jpg"
-import Shop from "../../img/Coven/Shop.png"
-import Installer from "../../img/Coven/installer.jpg"
+import logo from "../../img/Monumap/logo.jpg"
+import bnw from "../../img/Monumap/bnw.jpg"
+import cat from "../../img/Monumap/cat.jpg"
+import map from "../../img/Monumap/map.jpg"
+import nvm from "../../img/Monumap/nvm.jpg"
+import connections from "../../img/Monumap/Connecting.jpg"
+import lead from "../../img/Monumap/leaderboard.jpg"
+
+
 
 import "../../App.css"
 
 const imageData = [
     {
-        label: "Coven! An amazing RPG! | Made with ❤ and care by Sleepless ^^",
-        alt: "An amazing RGP!",
-        url:
-            Coven
+        label: "Amazing app with incredible design! X)",
+        alt: "logo",
+        url:logo
     },
     {
-        label: "Epic Boss fights!!! | DRAGOOOOONS!!!",
-        alt: "Epic Boss fights!!!",
-        url:
-            Boss
+        label: "Cool right? ;)",
+        alt: "connections",
+        url:connections
     },
     {
-        label: "Fast loading time   | GOTTA GO FAST!!!",
-        alt: "Fast loading time",
-        url:
-            Loading
+        label: "Made with care and love ^^ the cat can testify",
+        alt: "cat",
+        url:cat
     },
     {
-        label: "Huge map    | don't get lost ;)",
-        alt: "Huge map",
-        url:
-            Map
+        label: "Dark and light themes! (light themes is heresy tho 👀)",
+        alt: "bnw",
+        url:bnw
     },
     {
-        label: "A lot of skills | Do whatever you want.",
-        alt: "A lot of skills",
-        url:
-            Skill
+        label: "Map to not get lost and keep track of the monuments!",
+        alt: "map",
+        url:map
     },
     {
-        label: "Shop    | Come waste your money ;)",
-        alt: "Shop",
-        url:
-            Shop
+        label: "The competition is harsh!!! Be first or bite the dust!",
+        alt: "lead",
+        url:lead
     },
     {
-        label: "Easy way to download the game thanmks to the installer :))))",
-        alt: "Installer",
-        url:
-        Installer
+        label: "GET RICK ROLLED!!! FOOL",
+        alt: "nvm",
+        url:nvm
     },
+
 ];
 
 const renderSlides = imageData.map((image) => (
