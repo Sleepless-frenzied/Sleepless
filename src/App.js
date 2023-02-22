@@ -18,7 +18,7 @@ function App() {
         <div className="App">
             <Navbar/>
 
-            <Routes>
+            <Routes basename="/">
                 <Route path="/" element={<Sleepless/>} />
                 <Route path="/Monumap" element={<Monumap/>} />
                 <Route path="/Coven" element={<Coven />} />
