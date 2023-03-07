@@ -7,7 +7,7 @@ module.exports = {
   theme: {
 
     fontFamily: {
-      Gamer: "Press Start 2P"
+      Gamer: ['"Press Start 2P"']
     },
 
 
