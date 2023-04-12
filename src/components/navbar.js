@@ -57,6 +57,12 @@ function Nav() {
                                     >
                                         About us
                                     </Link>
+                                    <Link to={'/Portfolio'}
+                                          className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium text-xl"
+                                    >
+                                        Portfolio
+                                    </Link>
+
 
 
 
@@ -114,7 +120,7 @@ function Nav() {
                     show={isOpen}
                     enter="transition ease-out duration-100 transform"
                     enterFrom="opacity-0 scale-95"
-                    enterTo="opacity-100 scale-100"
+                    enterTo="opacit y-100 scale-100"
                     leave="transition ease-in duration-75 transform"
                     leaveFrom="opacity-100 scale-100"
                     leaveTo="opacity-0 scale-95"
@@ -136,6 +142,11 @@ function Nav() {
                                       className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium text-xl"
                                 >
                                     About us
+                                </Link>
+                                <Link to={'/Portfolio'}
+                                      className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium text-xl"
+                                >
+                                    Portfolio
                                 </Link>
 
                             </div>

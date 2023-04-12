@@ -7,13 +7,18 @@ module.exports = {
   theme: {
 
     fontFamily: {
-      Gamer: ['"Press Start 2P"']
+      Sheikah:['Sheikah'],
+      Gamer: ['"sans"']
     },
 
 
     extend: {
       colors:{
         'idk':'#1c1c1c',
+        'b':'#01a3dc',
+
+        'DarkBlue':'#004096'
+
       },
 
     },
