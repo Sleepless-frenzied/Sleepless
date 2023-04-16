@@ -4,7 +4,7 @@ import React from "react";
 function AboutUs()
 {
     return(
-        <div className=" flex flex- wrap justify-center ">
+        <div className=" flex flex-wrap justify-center ">
             <img
 
                 src={require('../../img/logo/MainLogo.jpg')}
