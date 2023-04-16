@@ -44,7 +44,7 @@ function Portfolio(){
 
     return(
         <div className=" grid grid-cols-2 text-white h-screen ">
-            <div>
+            <div className="mt-3">
                 <div className="">
                     <img src={require("../img/misc/willy.somkhit-square.png")}
                          alt="..." className="w-1/3 mx-auto shadow rounded-full border-none"/>
@@ -83,7 +83,7 @@ function Portfolio(){
                     ))}
                 </div>
             </div>
-            <div className=" overflow-y-auto test">
+            <div className="mt-3 overflow-y-auto test">
                 <h1 className="text-4xl md:text-5xl font-Lato text-left text-blue-600 font-bold ml-3 md:ml-0 ">À propos de moi</h1>
                 <p className="text-xl mx-6 text-justify">
                     Étudiant en 1er année de cycle expert en informatique (EPITA), je suis à la recherche d’une alternance de 3 ans à partir de septembre 2023. Ayant déjà participé dans plusieurs projets de développement (web, application mobile et jeux vidéo), je suis curieux et impatient d'apprendre avec vous.
