@@ -57,11 +57,7 @@ function Nav() {
                                     >
                                         About us
                                     </Link>
-                                    <Link to={'/Portfolio'}
-                                          className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium text-xl"
-                                    >
-                                        Portfolio
-                                    </Link>
+
 
 
 
@@ -143,11 +139,7 @@ function Nav() {
                                 >
                                     About us
                                 </Link>
-                                <Link to={'/Portfolio'}
-                                      className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium text-xl"
-                                >
-                                    Portfolio
-                                </Link>
+
 
                             </div>
                         </div>

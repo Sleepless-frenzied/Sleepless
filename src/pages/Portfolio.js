@@ -102,7 +102,7 @@ function Portfolio(){
                 <div className="flex flex-wrap gap-4 ml-5">
                     {tools.map((item, index) => (
                         <p key={index}
-                           className={`font-Lato hover:scale-110 duration-300 min-w-[10%]  font-bold rounded-full bg-blue-600 border-8 border-blue-600`}>
+                           className={`font-Lato  hover:scale-110 duration-300 min-w-[10%]  font-bold rounded-full bg-blue-600 border-8 border-blue-600`}>
                             {item.lang} <i className={`${item.logo} `}/>
                         </p>
 
